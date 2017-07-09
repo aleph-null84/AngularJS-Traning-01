@@ -4,8 +4,10 @@ app.controller("TimeCtrl", TimeController);
 function TimeController($scope) {
     var currentDate = new Date();
     $scope.timeString = currentDate.toTimeString();
+    $scope.userName = "";
+    
     $scope.updateTime = function() {
-        $scope.userName = "";
+        //$scope.userName = "";
         var currentDate = new Date();
         $scope.timeString = currentDate.toTimeString();
     }
