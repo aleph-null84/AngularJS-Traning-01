@@ -1,7 +1,7 @@
 var app = angular.module("clockApp", []);
-app.controller("TimeCtrl", TimeCtrl);
+app.controller("TimeCtrl", TimeController);
 
-function TimeCtrl($scope) {
+function TimeController($scope) {
     var currentDate = new Date();
     $scope.timeString = currentDate.toTimeString();
     $scope.updateTime = function() {
