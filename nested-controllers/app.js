@@ -7,5 +7,5 @@ function Ctrl1() {
     this.testProp = "From Ctrl 1";
 }
 function Ctrl2() {    
-    //this.testProp = "From Ctrl 2";
+    this.testProp = "From Ctrl 2";
 }
