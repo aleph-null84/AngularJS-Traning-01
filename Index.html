@@ -22,9 +22,7 @@
         module.controller("MainCtrl", MainFunc);
 
         function MainFunc($scope) {
-            var scope = angular.getScope();
-            scope.hourOfDay = 19;
-            //$scope.hourOfDay = 18;
+            $scope.hourOfDay = 18;
             console.log("main called");
 
         }
