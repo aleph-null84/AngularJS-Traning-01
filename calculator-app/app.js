@@ -2,7 +2,7 @@ var app = angular.module("calculatorApp", []);
 app.controller("CalculatorCtrl", CalculatorCtrl);
 
 function CalculatorCtrl() {
-    this.resultValue = 0;
+    this.resultValue = "";
     this.buttonClicked = function(button) {
         this.selectedOperation = button;
     }
