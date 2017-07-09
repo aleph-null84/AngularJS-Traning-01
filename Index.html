@@ -19,9 +19,9 @@
         console.log(angular);
 
         var module = angular.module("myApp", []);
-        module.controller("MainCtrl", Main);
+        module.controller("MainCtrl", MainFunc);
 
-        function Main($scope) {
+        function MainFunc($scope) {
             
             $scope.hourOfDay = 18;
             console.log("main called");
