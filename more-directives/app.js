@@ -3,7 +3,7 @@ angular.module("moreDirectivesApp", [])
 
 
 function MoreDirectivesCtrl() {
-	this.checked = true;
+	this.checked = false;
 	
     this.myList = [
         { 'name': "Foo", 'age': 20},
