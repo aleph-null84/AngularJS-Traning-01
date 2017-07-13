@@ -8,7 +8,7 @@ function TodoCtrl() {
         "Try out exercises",
         "Visit my site"
     ];
-
+    this.newTodo = "";
 
     this.addNewTodo = function() {
         this.todos.push(this.newTodo);
